@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Unicom:Web exploded">
+    <output-path>$PROJECT_DIR$/target/classes/artifacts/Unicom_Web_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="javaee-facet-classes" facet="Unicom/web/Web" />
+          <element id="module-output" name="Unicom" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.google.code.gson:gson:2.8.5" />
+          <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-core-asl:1.9.1" />
+          <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-mapper-asl:1.9.1" />
+          <element id="library" level="project" name="Maven: org.json:json:20180813" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="Unicom/web/Web" />
+    </root>
+  </artifact>
+</component>
